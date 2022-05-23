@@ -5,13 +5,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </asp:Content>
-
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
         <div style="padding-top:56px;">
             <div>
                 <img src="Images/project-cars.jpg" style="position:fixed; width:100%;"/>
             </div>
-            <div style="position:relative; overflow:hidden; background-color:rgba(0,0,0,0.5); top:1000px; z-index: 2; padding-bottom:100px;">
+            <div style="width:100%; height:100%; background-color:rgba(0,0,0,0.5); z-index: 2;">
+            <div style="position:relative; overflow:hidden; top:1000px; padding-bottom:100px;">
                 <p>
                     <h3 style="font-family:'Lobster', cursive; color:white; text-align:center;">"RULES ARE NOT MEANT TO BE BROKEN<br /> LET THE RULES PROTECT YOU..."</h3><br /><br />
                     <h3 style="font-family:'Lobster', cursive; color:white; text-align:center;">"SAFETY SHOULD BE THE PRIORITY<br /> BECAUSE NO ONE LIKES TO REGRET..."</h3><br /><br />
@@ -44,7 +44,10 @@
                         <li>9.Cell phones are for emergency use only on the road. </li>
                         <li>10.Drive a safe vehicle. </li>
                     </ul>
+                    
+<!-- background-color:rgba(0,0,0,0.5); z-index: 2; -->
                 </p>
             </div>
+           </div>
         </div>
 </asp:Content>
