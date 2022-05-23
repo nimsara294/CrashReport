@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Login.Master" AutoEventWireup="true" CodeBehind="UserLogin.aspx.cs" Inherits="CrashReport.UserLogin" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Login.Master" AutoEventWireup="true" CodeBehind="PoliceLogin.aspx.cs" Inherits="CrashReport.PoliceLogin" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <!-- Font Awesome -->
     <link
@@ -24,7 +24,7 @@
                     <div class="card" style="border-radius: 1rem;">
                         <div class="row g-0">
                             <div class="col-md-6 col-lg-5 d-none d-md-block">
-                                <img src="Images/istockphoto-969500140-170667a.jpg"
+                                <img src="Images/pexels-photo-1682385.jpeg"
                                 alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
                             </div>
                             <div class="col-md-6 col-lg-7 d-flex align-items-center">
@@ -32,7 +32,7 @@
 
                                     <form>
                                         <div class="d-flex align-items-center mb-3 pb-1">
-                                            <span class="h1 fw-bold mb-0" style="color:#fc0c00;">USER LOGIN</span>
+                                            <span class="h1 fw-bold mb-0" style="color:#fc0c00;">POLICE LOGIN</span>
                                         </div>
                                         <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
                                         <div class="form-outline mb-4">
@@ -46,8 +46,6 @@
                                         <div class="pt-1 mb-4">
                                             <button class="btn btn-dark btn-lg btn-block" type="button">Login</button>
                                         </div>
-                                        <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? <a href="#!"
-                                        style="color: #ec0b00;">Register here</a></p>
                                         <a href="/Home.aspx" class="small text-muted">Back To Home</a>
                                     </form>
 

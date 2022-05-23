@@ -9,20 +9,20 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
      <!-- Font Awesome -->
-<link
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-  rel="stylesheet"
-/>
-<!-- Google Fonts -->
-<link
-  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-  rel="stylesheet"
-/>
-<!-- MDB -->
-<link
-  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.css"
-  rel="stylesheet"
-/>
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        rel="stylesheet"
+     />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.css"
+        rel="stylesheet"
+    />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -58,7 +58,7 @@
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:#cc0a00">
                                     <a class="dropdown-item" href="/UserLogin.aspx">User Login</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Police Login</a>
+                                    <a class="dropdown-item" href="/PoliceLogin.aspx">Police Login</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="#">Insuarance Login</a>
                                     <div class="dropdown-divider"></div>
