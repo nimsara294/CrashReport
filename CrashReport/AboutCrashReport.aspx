@@ -7,7 +7,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div>
-        <img src="Images/ezgif.com-gif-maker.jpg" style="position:fixed; width:100%;"/>
+        <img src="Images/AboutPage.jpg" style="position:fixed; width:100%;"/>
     </div>
     <div style="position:fixed; overflow:hidden; background-color:rgba(0,0,0,0.5); z-index: 2; padding-bottom:100px; padding-top:250px; width:100%; height:100%;">
          <p>
