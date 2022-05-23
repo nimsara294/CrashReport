@@ -69,14 +69,13 @@
   <ItemGroup>
     <Content Include="AboutCrashReport.aspx" />
     <Content Include="Home.aspx" />
-    <Content Include="Images\57-574060_m.jpg" />
-    <Content Include="Images\download.jfif" />
-    <Content Include="Images\ezgif.com-gif-maker.jpg" />
-    <Content Include="Images\istockphoto-1310108875-170667a.jpg" />
-    <Content Include="Images\istockphoto-969500140-170667a.jpg" />
-    <Content Include="Images\pexels-deva-darshan-1173777.jpg" />
-    <Content Include="Images\pexels-photo-1682385.jpeg" />
-    <Content Include="Images\project-cars.jpg" />
+    <Content Include="Images\AboutPage.jpg" />
+    <Content Include="Images\HomeBackground.jpg" />
+    <Content Include="Images\InsuaranceLogin.jpg" />
+    <Content Include="Images\PoliceLogin.jpeg" />
+    <Content Include="Images\RDALogin.jpg" />
+    <Content Include="Images\UserLogin.jpg" />
+    <Content Include="InsuaranceLogin.aspx" />
     <Content Include="PoliceLogin.aspx" />
     <Content Include="RDALogin.aspx" />
     <Content Include="UserLogin.aspx" />
@@ -96,6 +95,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsuaranceLogin.aspx.cs">
+      <DependentUpon>InsuaranceLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsuaranceLogin.aspx.designer.cs">
+      <DependentUpon>InsuaranceLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.Master.cs">
       <DependentUpon>Login.Master</DependentUpon>

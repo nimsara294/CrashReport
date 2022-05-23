@@ -46,7 +46,7 @@
                                 <a class="nav-link" href="/Home.aspx">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Report a Crash</a>
+                                <a class="nav-link" href="/UserLogin.aspx">Report a Crash</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/AboutCrashReport.aspx">About Crash Report</a>
@@ -60,7 +60,7 @@
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="/PoliceLogin.aspx">Police Login</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Insuarance Login</a>
+                                    <a class="dropdown-item" href="/InsuaranceLogin.aspx">Insuarance Login</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="/RDALogin.aspx">RDA Login</a>
                                     <div class="dropdown-divider"></div>

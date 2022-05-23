@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Login.Master" AutoEventWireup="true" CodeBehind="PoliceLogin.aspx.cs" Inherits="CrashReport.PoliceLogin" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Login.Master" AutoEventWireup="true" CodeBehind="InsuaranceLogin.aspx.cs" Inherits="CrashReport.InsuaranceLogin" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <!-- Font Awesome -->
     <link
@@ -24,7 +24,7 @@
                     <div class="card" style="border-radius: 1rem;">
                         <div class="row g-0">
                             <div class="col-md-6 col-lg-5 d-none d-md-block">
-                                <img src="Images/PoliceLogin.jpeg"
+                                <img src="Images/InsuaranceLogin.jpg"
                                 alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
                             </div>
                             <div class="col-md-6 col-lg-7 d-flex align-items-center">
@@ -32,7 +32,7 @@
 
                                     <form>
                                         <div class="d-flex align-items-center mb-3 pb-1">
-                                            <span class="h1 fw-bold mb-0" style="color:#fc0c00;">POLICE LOGIN</span>
+                                            <span class="h1 fw-bold mb-0" style="color:#fc0c00;">INSUARANCE LOGIN</span>
                                         </div>
                                         <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
                                         <div class="form-outline mb-4">
@@ -48,7 +48,6 @@
                                         </div>
                                         <a href="/Home.aspx" class="small text-muted">Back To Home</a>
                                     </form>
-
                                 </div>
                             </div>
                        </div>

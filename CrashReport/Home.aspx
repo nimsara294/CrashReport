@@ -8,7 +8,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
         <div style="padding-top:56px;">
             <div>
-                <img src="Images/project-cars.jpg" style="position:fixed; width:100%;"/>
+                <img src="Images/HomeBackground.jpg" style="position:fixed; width:100%;"/>
             </div>
             <div style="width:100%; height:100%; background-color:rgba(0,0,0,0.5); z-index: 2;">
             <div style="position:relative; overflow:hidden; top:1000px; padding-bottom:100px;">
