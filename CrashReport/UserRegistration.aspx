@@ -87,6 +87,9 @@
                             <button type="submit" class="btn btn-primary btn-block mb-4" style="background-color:#fc0c00;">
                                 Register
                             </button>
+                             <p class="mb-5 pb-lg-2" style="color: #393f81;">Already have an account? <a href="/UserLogin.aspx"
+                                 style="color: #ec0b00;">Login</a></p>
+                            <a href="/Home.aspx" class="small text-muted">Back To Home</a>
                             </form>
                     </div>
                 </div>
