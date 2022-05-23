@@ -14,8 +14,9 @@
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
+            <!--Navigation bar-->
             <div>
-                <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #cc0a00;">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:#cc0a00">
                     <a class="navbar-brand" href="#">
                         <!----<img src="Images/car-accident.png" width="50" height="50" class="d-inline-block align-top" alt="">-->
                         CRASH REPORT
@@ -26,8 +27,8 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Home.aspx">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Report a Crash</a>
@@ -35,8 +36,21 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">About Crash Report</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Log In</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Login
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:#cc0a00">
+                                    <a class="dropdown-item" href="#">User Login</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Police Login</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Insuarance Login</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">RDA Login</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Master Login</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Register</a>
@@ -45,7 +59,17 @@
                     </div>
                 </nav>
             </div>
-    </form>
+            <!--Navigation bar end-->
+            <!-- Footer -->
+            <footer class="page-footer font-small fixed-bottom" style="background-color:#ab0800; overflow:hidden;">
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3" style="background-color:#920700; overflow:hidden;">
+                    ©All Rights Reserved.
+                </div>
+            </footer>
+            <!-- Footer End-->
+        </div>
+     </form>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
