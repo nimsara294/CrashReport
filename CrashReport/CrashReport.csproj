@@ -72,10 +72,12 @@
     <Content Include="Images\AboutPage.jpg" />
     <Content Include="Images\HomeBackground.jpg" />
     <Content Include="Images\InsuaranceLogin.jpg" />
+    <Content Include="Images\MasterLogin.jpg" />
     <Content Include="Images\PoliceLogin.jpeg" />
     <Content Include="Images\RDALogin.jpg" />
     <Content Include="Images\UserLogin.jpg" />
     <Content Include="InsuaranceLogin.aspx" />
+    <Content Include="MasterLogin.aspx" />
     <Content Include="PoliceLogin.aspx" />
     <Content Include="RDALogin.aspx" />
     <Content Include="UserLogin.aspx" />
@@ -109,6 +111,13 @@
     </Compile>
     <Compile Include="Login.Master.designer.cs">
       <DependentUpon>Login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterLogin.aspx.cs">
+      <DependentUpon>MasterLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterLogin.aspx.designer.cs">
+      <DependentUpon>MasterLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="PoliceLogin.aspx.cs">
       <DependentUpon>PoliceLogin.aspx</DependentUpon>
