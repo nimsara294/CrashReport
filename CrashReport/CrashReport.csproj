@@ -70,12 +70,15 @@
     <Content Include="AboutCrashReport.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Images\57-574060_m.jpg" />
+    <Content Include="Images\download.jfif" />
     <Content Include="Images\ezgif.com-gif-maker.jpg" />
     <Content Include="Images\istockphoto-1310108875-170667a.jpg" />
     <Content Include="Images\istockphoto-969500140-170667a.jpg" />
+    <Content Include="Images\pexels-deva-darshan-1173777.jpg" />
     <Content Include="Images\pexels-photo-1682385.jpeg" />
     <Content Include="Images\project-cars.jpg" />
     <Content Include="PoliceLogin.aspx" />
+    <Content Include="RDALogin.aspx" />
     <Content Include="UserLogin.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -109,6 +112,13 @@
       <DependentUpon>PoliceLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RDALogin.aspx.cs">
+      <DependentUpon>RDALogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RDALogin.aspx.designer.cs">
+      <DependentUpon>RDALogin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
