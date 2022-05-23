@@ -46,7 +46,7 @@
                                         <div class="pt-1 mb-4">
                                             <button class="btn btn-dark btn-lg btn-block" type="button">Login</button>
                                         </div>
-                                        <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? <a href="#!"
+                                        <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? <a href="/UserRegistration.aspx"
                                         style="color: #ec0b00;">Register here</a></p>
                                         <a href="/Home.aspx" class="small text-muted">Back To Home</a>
                                     </form>
