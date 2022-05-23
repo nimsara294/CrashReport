@@ -76,6 +76,7 @@
     <Content Include="Images\PoliceLogin.jpeg" />
     <Content Include="Images\RDALogin.jpg" />
     <Content Include="Images\UserLogin.jpg" />
+    <Content Include="Images\UserRegistration.jpg" />
     <Content Include="InsuaranceLogin.aspx" />
     <Content Include="MasterLogin.aspx" />
     <Content Include="PoliceLogin.aspx" />
